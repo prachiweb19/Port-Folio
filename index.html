@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Front-End Developer</title>
+
+    <style>
+        /* Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background: #0f0f0f;
+            color: #fff;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #00eaff;
+        }
+
+        .name {
+            font-size: 32px;
+            margin-top: 20px;
+        }
+
+        .role {
+            color: #00eaff;
+            margin-bottom: 10px;
+        }
+
+        .social-links a {
+            color: #00eaff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* SECTION STYLES */
+        section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        /* SKILLS */
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skills-grid span {
+            background: #1c1c1c;
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: 1px solid #00eaff;
+            font-weight: 600;
+        }
+
+        /* PROJECTS */
+        .project-card {
+            background: #1a1a1a;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #202020;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            border-radius: 6px;
+            background: #00eaff;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            margin-top: 40px;
+        }
+
+        /* FADE ANIMATION */
+        .fade {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: 0.8s;
+        }
+        .show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero fade">
+        <img src="Pictures/my picture.jpg" class="profile-img" alt="Profile">
+        <h1 class="name">Prachi Bhardwaj</h1>
+        <p class="role">Front-End Developer</p>
+
+        <div class="social-links">
+            <a href="https://github.com/prachiweb19">GitHub</a>
+            <a href="https://www.linkedin.com/in/prachi-bhardwaj-101336286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a>
+            <a href="mailto:bhardwajprachi775@gmail.com">E-Mail</a>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="about fade">
+        <h2>About Me</h2>
+        <p>
+            I am a Front-End Developer focused on building fast, modern, and visually appealing web applications. I work with HTML, CSS, JavaScript, and modern frameworks to create smooth user experiences. I love solving UI problems, improving designs, and bringing creativity to the web. My goal is to create high-quality digital experiences that leave a strong impact.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills fade">
+        <h2>Skills / Tech Stack</h2>
+        <div class="skills-grid">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Git & GitHub</span>
+      
+
+          
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects fade">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3> Project: Gym-Website(Responsive website)  </h3>
+            <p> A modern and responsive gym website featuring clean UI, membership plans, training programs, and a smooth user experience. Built using HTML, CSS, and JavaScript </p>
+            <a href="https://prachiweb19.github.io/-gym-website" class="btn">Live Demo</a>
+        </div>
+
+        <div class="project-card">
+            <h3> Project: TO DO APP  </h3>
+            <p> A simple and functional To-Do app that allows users to add, edit, and delete tasks with a clean and responsive UI. </p>
+            <a href="https://prachiweb19.github.io/To-Do-App" class="btn">Live Demo</a>
+        </div>
+
+         <div class="project-card">
+            <h3> Project: Expense Tracker </h3>
+            <p> A responsive expense tracker that uses API-based data handling to add, manage, and monitor daily expenses with clear summaries and a clean UI. </p>
+            <a href="https://prachiweb19.github.io/Expense-Tracker" class="btn">Live Demo</a>
+        </div>
+
+         <div class="project-card">
+            <h3> Project: Simple Calculator </h3>
+            <p> A basic and responsive calculator that performs simple arithmetic operations with a clean and easy-to-use interface. </p>
+            <a href="https://prachiweb19.github.io/Simple-Calculator" class="btn">Live Demo</a>
+        </div>
+
+         <div class="project-card">
+            <h3> Project: Port-Folio </h3>
+            <p> A modern and responsive personal portfolio showcasing my skills, projects, and experience with a clean and minimal UI. </p>
+            <a href="#" class="btn">Live Demo</a>
+        </div>
+
+         <div class="project-card">
+            <h3> Project: </h3>
+            <p>  </p>
+            <a href="#" class="btn">Live Demo</a>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Your Name | Front-End Developer</p>
+    </footer>
+
+    <!-- JAVASCRIPT (Smooth Fade Animation) -->
+    <script>
+        const sections = document.querySelectorAll(".fade");
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        });
+
+        sections.forEach(sec => observer.observe(sec));
+    </script>
+
+</body>
+</html>
