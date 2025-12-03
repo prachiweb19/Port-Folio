@@ -38,4 +38,16 @@ This portfolio is designed to present my work in a clean and professional way,
 making it easier for recruiters and clients to explore my skills and projects.
 
 ---
+## 📱 Responsive Design
+Fully responsive across:
+- Mobile  
+- Tablet  
+- Desktop  
 
+## 🧩 How to Use
+
+1. Clone or download this repository : 
+
+Check it out here:  
+
+⭐ If you like this project, please give it a star!
